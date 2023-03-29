@@ -10,7 +10,16 @@
     --clr-neutral-pale-orange: hsl(33, 100%, 98%);
 
     --ff-primary: 'DM Sans', sans-serif;
-    --ff-base: 1.125rem;
+    --fs-base: 1.125rem;
     --fw-regular: 400;
     --fw-bold: 700;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--clr-neutral-cream);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-base);
+    display: grid;
+    place-content: center;
 }

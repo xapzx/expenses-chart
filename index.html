@@ -14,24 +14,57 @@
   <script src="expenses.js" defer></script>
 </head>
 <body>
-
-  My balance
-  $921.48
-
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
+  <main>
+    <div class="balance">
+      <div class="balance-item">
+        <p class="balance-title">My balance</p>
+        <div class="balance-data">$921.48</div>
+      </div>
+      <img src="images/logo.svg" alt="Logo">
+    </div>
+    <div class="spending">
+      <h1 class="spending-title">Spending - Last 7 days</h1>
+      <div class="spending-chart">
+        <div class="day">
+          <div class="spending-bar"></div>
+          <div class="spending-day">mon</div>
+        </div>
+        <div class="day">
+          <div class="spending-bar"></div>
+          <div class="spending-day">tue</div>
+        </div>
+        <div class="day">
+          <div class="spending-bar"></div>
+          <div class="spending-day">wed</div>
+        </div>
+        <div class="day">
+          <div class="spending-bar"></div>
+          <div class="spending-day">thu</div>
+        </div>
+        <div class="day">
+          <div class="spending-bar"></div>
+          <div class="spending-day">fri</div>
+        </div>
+        <div class="day">
+          <div class="spending-bar"></div>
+          <div class="spending-day">sat</div>
+        </div>
+        <div class="day">
+          <div class="spending-bar"></div>
+          <div class="spending-day">sun</div>
+        </div>
+      </div>
+      <div class="spending-summary">
+        <div class="total-spending-month">
+          <p class="month-title">Total this month</p>
+          <div class="total-month-data">$478.33</div>
+        </div>
+        <div class="spending-percentage">
+          <div class="spending-percentage-data">+2.4%</div>
+          <div class="spending-percentage-title">from last month</div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>

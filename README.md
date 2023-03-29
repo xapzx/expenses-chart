@@ -10,7 +10,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -31,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/xapzx/expenses-chart]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://xapzx.github.io/expenses-chart/]
 
 ## My process
 
@@ -42,19 +41,3 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-### What I learned
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```

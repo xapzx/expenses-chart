@@ -23,6 +23,5 @@ fetch('./data.json')
             day.children[2].innerText = json[index].day
             index++;
         })
-        console.log(json)
     });
 

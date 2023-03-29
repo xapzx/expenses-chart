@@ -86,13 +86,14 @@ main {
 
 .spending-title {
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .spending-chart {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 0.75rem;
+    min-height: 13rem;
 }
 
 .day {
@@ -100,6 +101,20 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     gap: 0.5rem;
+    position: relative;
+}
+
+.spending-amount {
+    display: none;
+    background-color: var(--clr-neutral-dark-brown);
+    color: var(--clr-neutral-pale-orange);
+    font-size: 1rem;
+    font-weight: var(--fw-bold);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 0;
+    left: -25%;
 }
 
 .spending-bar {
@@ -136,15 +151,19 @@ hr {
 
     .spending-title {
         font-size: 2rem;
-        margin-bottom: 3rem;
     }
 
     .spending-chart {
         gap: 1.2rem;
+        min-height: 14.5rem;
     }
 
     .spending-bar {
         width: 3rem;
+    }
+
+    .day:hover .spending-amount {
+        display: grid;
     }
 
     .spending-day {

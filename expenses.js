@@ -16,11 +16,11 @@ fetch('./data.json')
 
         days_items.forEach((day) => {
             if(json[index].amount === max) {
-                day.children[0].style.backgroundColor = "var(--clr-primary-cyan)"
+                day.children[1].style.backgroundColor = "var(--clr-primary-cyan)"
             }
-
-            day.children[0].style.height = 180 * (json[index].amount / max) + "px"
-            day.children[1].innerText = json[index].day
+            day.children[0].innerText = "$" + json[index].amount
+            day.children[1].style.height = (180 * (json[index].amount / max))*0.8 + "px"
+            day.children[2].innerText = json[index].day
             index++;
         })
         console.log(json)

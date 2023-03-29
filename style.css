@@ -22,4 +22,28 @@ body {
     font-size: var(--fs-base);
     display: grid;
     place-content: center;
+    padding: 0 1rem;
+}
+
+.balance {
+    background-color: var(--clr-primary-soft-red);
+    color: var(--clr-neutral-pale-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.5rem 1.2rem 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.balance-title {
+    font-size: 0.925rem;
+}
+
+.balance-data {
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+}
+
+.logo {
+    width: 3.5rem;
 }
